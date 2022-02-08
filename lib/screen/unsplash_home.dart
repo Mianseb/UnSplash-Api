@@ -3,9 +3,10 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart'as http;
-import 'package:omdb_api/models/api_model.dart';
-import 'package:omdb_api/models/topic_api.dart';
-import 'package:omdb_api/screen/photo_detail.dart';
+import 'package:unsplash_api/models/api_model.dart';
+import 'package:unsplash_api/models/topic_api.dart';
+import 'package:unsplash_api/screen/photo_detail.dart';
+
 
 import '../models/photo_model.dart';
 
@@ -370,7 +371,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       }
                       else
                       {
-                        return Center(child: CircularProgressIndicator(),);
+                        return Center(child: CircularProgressIndicator(
+                          color: Colors.blue,
+                        ),);
                       }
                     },
                   ),

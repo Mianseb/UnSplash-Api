@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:gallery_saver/gallery_saver.dart';
-import 'package:omdb_api/models/photo_model.dart';
+import 'package:unsplash_api/models/photo_model.dart';
+
 import 'package:wallpaper_manager_flutter/wallpaper_manager_flutter.dart';
 
 class PhotoDetail extends StatefulWidget {
